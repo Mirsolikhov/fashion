@@ -1,0 +1,62 @@
+.banner{
+    background: linear-gradient(#F9DF56, #E0C340);
+    
+}
+.banner__box{
+    display: flex;
+    column-gap: 40px;
+    /* justify-content: space-between; */
+}
+.banner__info{
+    max-width: 666px;
+    margin-top: 128px;
+}
+.banner__title{
+    font-weight: 900;
+    font-size: 112px;
+    line-height: 1.23;
+}
+
+.banner__highlight{
+    position: relative;
+    display: inline-block;
+}
+.banner__highlight span{
+    position: relative;
+}
+.banner__highlight::before{
+    content: "";
+    position: absolute;
+    top: 5px;
+    bottom: -12px;
+    left: -20px;
+    right: -40px;
+    background-color: #fff;
+    height: 125px;
+    transform: rotate(-2deg);
+}
+.banner__text1, .banner__text2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.44;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+.banner__text2 .date{
+    display: block;
+    font-weight: 700;
+}
+.banner__btn{
+    display: inline-block;
+    border-radius: 8px;
+    padding: 20px 50px ;
+    background-color: var(--textColor);
+}
+.banner__btn a{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    
+}

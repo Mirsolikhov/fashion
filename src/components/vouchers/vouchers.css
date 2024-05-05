@@ -1,0 +1,31 @@
+.vouchers{}
+.vouchers__container{
+    display: flex;
+    justify-content: space-around;
+}
+.vouchers__box{
+    margin-top: 180px;
+}
+.voucher__info{
+    max-width: 507px;
+}
+.voucher__header{
+    margin-bottom: 41px;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+}
+.voucher__text{
+    margin-bottom: 41px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.45;
+    letter-spacing: -0.04em;
+}
+.voucher__btns{
+    display: flex;
+    column-gap: 20px;
+}
+.voucher__btns a{}
+.vouchers__img{}
